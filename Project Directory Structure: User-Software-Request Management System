@@ -1,0 +1,22 @@
+first go to Roshan folder and select the commands to check the code individually
+src/main/java/com/Ashi/Roshan
+├── controller
+│   ├── UserController.java         # Handles user-related API endpoints.
+│   ├── SoftwareController.java     # Manages API endpoints for software operations.
+│   ├── RequestController.java      # Handles requests for software access.
+├── dto
+│   ├── AccessRequestDTO.java       # Data Transfer Object for access requests.
+│   ├── UserDTO.java                # Data Transfer Object for user details.
+├── entity
+│   ├── User.java                   # Represents the User entity for database mapping.
+│   ├── Software.java               # Represents the Software entity for database mapping.
+│   ├── Request.java                # Represents the Request entity for database mapping.
+├── repository
+│   ├── UserRepository.java         # JPA repository for User entity.
+│   ├── SoftwareRepository.java     # JPA repository for Software entity.
+│   ├── RequestRepository.java      # JPA repository for Request entity.
+├── service
+│   ├── UserService.java            # Contains business logic for user operations.
+│   ├── SoftwareService.java        # Contains business logic for software operations.
+│   ├── RequestService.java         # Contains business logic for request operations.
+├── AccessManagementApplication.java # Main entry point of the application.
